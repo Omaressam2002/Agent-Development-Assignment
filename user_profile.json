@@ -1,0 +1,15 @@
+{
+  "user_id": "A123",
+  "history": [
+    {"product": "Wireless Headphones X200", "category": "electronics", "price": 199.99},
+    {"product": "Smartwatch Fit S3", "category": "electronics", "price": 249.99},
+    {"product": "Running Shoes SprintX", "category": "sportswear", "price": 89.99},
+    {"product": "Sports Backpack 25L", "category": "sportswear", "price": 49.99},
+    {"product": "Fitness Tracker Watch", "category": "sportswear", "price": 99.99},
+    {"product": "Mystery Novel: Hidden Truths", "category": "books", "price": 14.99},
+    {"product": "Science Fiction: Galactic Wars", "category": "books", "price": 19.99},
+    {"product": "Cookbook: World Cuisines", "category": "books", "price": 29.99},
+    {"product": "Thriller: The Last Escape", "category": "books", "price": 22.99},
+    {"product": "Data Science Handbook", "category": "books", "price": 59.99}
+  ]
+}
