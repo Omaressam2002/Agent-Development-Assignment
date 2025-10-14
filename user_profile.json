@@ -60,6 +60,11 @@
       "product": "Perfume Elegant Rose 50ml",
       "category": "beauty",
       "price": 89.99
+    },
+    {
+      "product": "Blender UltraMix",
+      "category": "home_appliances",
+      "price": 89.99
     }
   ]
 }
