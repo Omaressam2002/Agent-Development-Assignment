@@ -3,5 +3,25 @@
         "transaction_id": "6eb2e1e0-ceac-4713-8b60-278582c14055",
         "user_id": "A123",
         "product_id": "p28"
+    },
+    {
+        "transaction_id": "c7741d01-4701-4ec7-805c-cbbebb0fb51a",
+        "user_id": "A123",
+        "product_id": "p26"
+    },
+    {
+        "transaction_id": "30b80f68-6c28-403e-b20c-0deea8356683",
+        "user_id": "A123",
+        "product_id": "p6"
+    },
+    {
+        "transaction_id": "0aa41039-54a6-4ddb-a45f-62e2d85743ea",
+        "user_id": "A123",
+        "product_id": "p10"
+    },
+    {
+        "transaction_id": "e8069e0a-5fda-45c3-b321-c7b425039798",
+        "user_id": "A123",
+        "product_id": "p26"
     }
 ]

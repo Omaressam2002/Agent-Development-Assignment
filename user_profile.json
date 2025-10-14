@@ -65,6 +65,26 @@
       "product": "Blender UltraMix",
       "category": "home_appliances",
       "price": 89.99
+    },
+    {
+      "product": "Electric Kettle FastBoil",
+      "category": "home_appliances",
+      "price": 49.99
+    },
+    {
+      "product": "Wireless Charger Pad",
+      "category": "electronics",
+      "price": 29.99
+    },
+    {
+      "product": "Mechanical Keyboard RGB",
+      "category": "electronics",
+      "price": 119.99
+    },
+    {
+      "product": "Electric Kettle FastBoil",
+      "category": "home_appliances",
+      "price": 49.99
     }
   ]
 }
