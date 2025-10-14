@@ -16,7 +16,7 @@ the workflow is as follows:
 - we also have an error node that any node would navigate to in case any errors to manage smooth error handling. 
 
 
-![Graph Structure](assets/chains_and_agents.png)
+![Graph Structure](assets/graph_structure.png)
 
 ---
 
