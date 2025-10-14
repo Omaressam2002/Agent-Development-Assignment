@@ -9,12 +9,14 @@ The assistant dynamically guides users through product discovery, category-based
 
 the workflow is as follows:
 - the state is initialized with the user profile file path and the product catalogue file path (generated using gpt).
-- the first node (category extraction) reads the files and assigns the values to the state variables then moves to the next state in case no errors were met.
-- the second node (category recommendation) uses an LLMChain model with a prepared prompt to analyze the user's history and chooses a new product category to recommend, also generates a jsutification message to interest the user in the recommended category.
-- the third node (product recommendation), with the help of a Zero shot ReAct agent to orchestrate the use of the tools, uses the average_calculator tool to calculate the average of the user's previous transactions, then ,with the help if the rank_products_by_difference tool, sorts the products based on their closeness to the average of the average. Then recommends to the user the top 3 products with an improved justification message to match the chosen products.
-- then the last node (select and purchase) takes the input from the user and try to match it with a product from the recommended ones, if matched with a confidence rate > 0.6 then the transaction goes to the history log file and updates the user profile file, if not then asks the user to give another input this clearer thant the last one, it tries 3 times to match before terminating.
+- the FIRST NODE (category extraction) reads the files and assigns the values to the state variables then moves to the next state in case no errors were met.
+- the SECOND NODE (category recommendation) uses an LLMChain model with a prepared prompt to analyze the user's history and chooses a new product category to recommend, also generates a jsutification message to interest the user in the recommended category.
+- the THIRD NODE (product recommendation), with the help of a Zero shot ReAct agent to orchestrate the use of the tools, uses the average_calculator tool to calculate the average of the user's previous transactions, then ,with the help if the rank_products_by_difference tool, sorts the products based on their closeness to the average of the average. Then recommends to the user the top 3 products with an improved justification message to match the chosen products.
+- then the FOURTH NODE (select and purchase) takes the input from the user and try to match it with a product from the recommended ones, if matched with a confidence rate > 0.6 then the transaction goes to the history log file and updates the user profile file, if not then asks the user to give another input this clearer thant the last one, it tries 3 times to match before terminating.
 - we also have an error node that any node would navigate to in case any errors to manage smooth error handling. 
 
+
+![Graph Structure](assets/chains_and_agents.png)
 
 ---
 
