@@ -459,7 +459,7 @@ graph.add_conditional_edges("product_recommendation", lambda state: "error" if s
 graph.add_conditional_edges("select_and_purchase", lambda state: "error" if state.get("error") else "done",
     {
         "error": "error_node",
-        "done": "category_extraction"
+        "done": END
     }
 )
 
