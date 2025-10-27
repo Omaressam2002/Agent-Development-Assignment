@@ -2,6 +2,7 @@
 
 
 test video : https://www.youtube.com/watch?v=h-xiRJ0mqFA
+
 This project implements an **AI-driven conversational shopping assistant** using **LangChain**, **LangGraph**, and **LLM-based agents**.  
 The assistant dynamically guides users through product discovery, category-based recommendations, and purchase simulation.
 
