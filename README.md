@@ -1,8 +1,7 @@
 # 🛍️ Shopping Assistant Agent — Intelligent Product Recommendation System
 
 
-YOU CAN FIND TEST CASES IN THE AGNET.IPYNB NOTEBOOK AT THE BOTTOM.
-OR TRY USING MAIN.PY BUT SET YOUR OWN GROQ_API_KEY TO TRY.
+test video : https://www.youtube.com/watch?v=h-xiRJ0mqFA
 This project implements an **AI-driven conversational shopping assistant** using **LangChain**, **LangGraph**, and **LLM-based agents**.  
 The assistant dynamically guides users through product discovery, category-based recommendations, and purchase simulation.
 
